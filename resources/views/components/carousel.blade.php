@@ -1,5 +1,5 @@
 <div id="reviewsCarousel" class="carousel slide my-5 no-overflow"
-     data-bs-ride="carousel" data-bs-interval="3000">
+     data-bs-ride="carousel" data-bs-interval="4000">
     <div class="carousel-inner">
 
         <!-- SLIDE 1 -->

@@ -1,4 +1,4 @@
-<x-layout title="Azzorre Appartamenti">
+<x-layout title="Trilocale via delle Azzorre">
     <div class="hero-wrapper">
         <img src="{{ asset('images/salottoHero.jpg') }}" alt="AzzorreApartment" class="hero-img">
         <img src="{{ asset('images/letto.jpg') }}" alt="AzzorreApartment" class="hero-img">
@@ -7,11 +7,11 @@
     
     <div class="text-center mt-5 mb-5 px-3">
         <h1 style="color: var(--text-impact); font-size: 2.5rem; font-weight: 700;">
-            Benvenuti ad Azzorre Apartment
+            Benvenuti al Trilocale di Via delle Azzorre
         </h1>
         
         <p style="color: var(--text-color); font-size: 1.2rem; max-width: 800px; margin: 1.5rem auto;">
-            A soli <strong>1 km dalla Spiaggia di Ostia Lido</strong>, il nostro trilocale situato in Via delle Azzorre
+            A meno di <strong>1 km dalla Spiaggia di Ostia Lido</strong>, il nostro trilocale situato in Via delle Azzorre
             offre un ambiente moderno, luminoso e ideale per chi desidera vivere il litorale romano in totale relax.
             La struttura dispone di <strong>balcone</strong>, <strong>WiFi gratuito</strong> e 
             <strong>parcheggio privato</strong>, rendendola perfetta per soggiorni sia brevi che prolungati.
@@ -57,7 +57,6 @@
         </div>
         
         <!-- TESTO A DESTRA -->
-        <!-- TESTO A DESTRA -->
         <div class="col-lg-6 d-flex flex-column justify-content-center">
             <h4 style="color: var(--text-impact);">Nei Dintorni</h4>
             
@@ -73,9 +72,9 @@
             
             <p style="color: var(--text-color); font-size: 1.1rem;">
                 <i class="bi bi-tsunami" style="color: var(--text-impact);"></i>
-                A 1 km dalla Spiaggia di Ostia Lido, perfetta per godersi mare e relax.
+                A 800 m dalla Spiaggia di Ostia Lido, perfetta per godersi mare e relax.
             </p>
-
+            
             <p style="color: var(--text-color); font-size: 1.1rem;">
                 <i class="bi bi-shop" style="color: var(--text-impact);"></i>
                 A 13 km dal centro commerciale Parco Leonardo e Parco Da Vinci per lo shopping e l'intrattenimento.
@@ -87,15 +86,32 @@
     
     <div class="container mb-5 mt-5">
         
-        
-    <h2 class="text-center mb-5 mt-5" style="color: var(--text-impact);">
+        <h2 class="text-center mb-5 mt-5" style="color: var(--text-impact);">
             Dicono di noi <i class="bi bi-chat-heart-fill"></i>
         </h2>
-    
-    <x-carousel />
-    
+        
+        <div class="row align-items-center">
+
+    <!-- CAROUSEL -->
+    <div class="col-md-9" style="max-width: 800px; overflow: hidden; position: relative; z-index: 1;">
+        <x-carousel />
     </div>
- 
+
+    <!-- IMMAGINE BOOKING -->
+    <div class="col-md-3 text-center" style="position: relative; z-index: 10;">
+    <img src="{{ asset('images/booking.jpg') }}" 
+         alt="BookingAward" 
+         style="width: 300px; height: 300px; object-fit: cover; margin-left: 8px;">
+</div>
+
+
+</div>
+
+        
+        
+    </div>
+    
+    
 </x-layout>
 
 <x-footer />
