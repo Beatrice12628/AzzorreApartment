@@ -18,7 +18,7 @@
         <!-- Sezione -->
         <h3 class="fw-bold mt-4" style="color: var(--text-impact);">1. Titolare del Trattamento</h3>
         <p>
-            <strong>Aurora Cangaino – Trilocale Via delle Azzorre</strong><br>
+            <strong>Aurora Cangiano – Trilocale Via delle Azzorre</strong><br>
             Indirizzo: Via delle Azzorre 374<br>
             Email: <a href="mailto:solemare374@gmail.com" style="color: var(--text-impact);">solemare374@gmail.com</a><br>
         </p>

@@ -11,7 +11,7 @@
         </h1>
         
         <p style="color: var(--text-color); font-size: 1.2rem; max-width: 800px; margin: 1.5rem auto;">
-            A meno di <strong>1 km dalla Spiaggia di Ostia Lido</strong>, il nostro trilocale situato in Via delle Azzorre
+            A meno di <strong>10 minuti a piedi dalla Spiaggia di Ostia Lido</strong>, il nostro trilocale situato in Via delle Azzorre
             offre un ambiente moderno, luminoso e ideale per chi desidera vivere il litorale romano in totale relax.
             La struttura dispone di <strong>balcone</strong>, <strong>WiFi gratuito</strong> e 
             <strong>parcheggio privato</strong>, rendendola perfetta per soggiorni sia brevi che prolungati.
@@ -62,7 +62,7 @@
             
             <p style="color: var(--text-color); font-size: 1.1rem;">
                 <i class="bi bi bi-train-front" style="color: var(--text-impact);"></i>
-                A circa 23 km dal Palalottomatica e dalla Stazione Metro EUR Fermi, entrambe facilmente raggiungibili in auto.
+                Proprio di fronte all’alloggio troverai la fermata dell’autobus 05/, che in pochi minuti ti porta alla stazione metro Lido Centro.Da qui potrai raggiungere facilmente il centro di Roma in soli 20 minuti
             </p>
             
             <p style="color: var(--text-color); font-size: 1.1rem;">
