@@ -99,10 +99,11 @@
 
     <!-- IMMAGINE BOOKING -->
     <div class="col-md-3 text-center" style="position: relative; z-index: 10;">
-    <img src="{{ asset('images/booking.jpg') }}" 
-         alt="BookingAward" 
-         style="width: 300px; height: 300px; object-fit: cover; margin-left: 8px;">
-</div>
+         <img src="{{ asset('images/2026.jpg') }}" 
+            alt="BookingAward" 
+            class="img-fluid"
+            style="max-width: 380px;">
+    </div>
 
 
 </div>
