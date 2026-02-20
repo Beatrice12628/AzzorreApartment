@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
 
             <!-- SINISTRA -->
-            <ul class="navbar-nav flex-row gap-2 me-3 mt-3 mt-lg-0">
+            <ul class="navbar-nav flex-row gap-2 me-3 mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('welcome') }}" style="color: var(--text-light)!important;">Home</a>
                 </li>
