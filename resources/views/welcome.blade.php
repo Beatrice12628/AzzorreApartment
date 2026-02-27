@@ -89,21 +89,26 @@
         <h2 class="text-center mb-5 mt-5" style="color: var(--text-impact);">
             Dicono di noi <i class="bi bi-chat-heart-fill"></i>
         </h2>
-        
-        <div class="row align-items-center">
 
-    <!-- CAROUSEL -->
-    <div class="col-md-9" style="max-width: 800px; overflow: hidden; position: relative; z-index: 1;">
-        <x-carousel />
-    </div>
 
-    <!-- IMMAGINE BOOKING -->
-    <div class="col-md-3 text-center" style="position: relative; z-index: 10;">
-         <img src="{{ asset('images/2026.jpg') }}" 
-            alt="BookingAward" 
-            class="img-fluid"
-            style="max-width: 380px;">
-    </div>
+<div class="row align-items-center">
+
+  <!-- CAROUSEL -->
+  <div class="col-12 col-lg-8" style="overflow: hidden; position: relative; z-index: 1;">
+    <x-carousel />
+  </div>
+
+  <!-- IMMAGINE BOOKING -->
+  <div class="col-12 col-lg-4 text-center mt-4 mt-lg-0 d-flex justify-content-center align-items-center">
+    <img src="{{ asset('images/2026.jpg') }}"
+         alt="BookingAward"
+         class="img-fluid"
+         style="width: min(100%, 520px); height: auto;">
+  </div>
+
+</div>
+
+</div>
 
 
 </div>
